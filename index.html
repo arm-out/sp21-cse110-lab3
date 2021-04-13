@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <meta charset="UTF-8" />
+        <title>My Journal</title>
+        <link rel="favicon" href="favicon.ico" type="image/x-icon">  
+    </head>
+    <body>
+        <header>
+            <h1>My Journal</h1>
+        </header>
+
+        <main>
+            <h2>My Links</h2>
+            <nav>
+                <ul>
+                    <li><a href="https://github.com/arm-out">Github</a></li>
+                    <li><a href="https://arm-out.github.io/cse110pages/">Intro Page</a></li>
+                </ul>
+            </nav>
+            
+            <section>
+                <h2>Today</h2>
+                <p><b>Lorem ipsum</b> dolor sit amet, <span class="words">consectetur adipiscing elit.</span> Phasellus congue elementum quam porta euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies laoreet purus sit amet aliquam.<br> Pellentesque sagittis ante eget mi pharetra rutrum. Nam pretium vulputate rhoncus. Curabitur velit neque, sollicitudin sollicitudin tempus sed, elementum nec ex. Vivamus in ipsum tortor. Aenean fermentum arcu diam, eget congue augue tincidunt eu. Vivamus vitae volutpat ex. Suspendisse nulla lectus, bibendum id fringilla a, tempus ac purus. Nunc lorem augue, ornare ut tempus ac, dignissim in quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. <strong>Vestibulum non quam pharetra, egestas ex vel, fringilla quam. Proin nec dui dui.</strong></p>
+
+                <div class="goals1">
+                    <h3>Goals for the day</h3>
+                    <ol>
+                        <li>Goal 1</li>
+                        <li>Goal 2</li>
+                        <li>Goal 3</li>
+                    </ol>
+                </div>
+                    
+                <div class="meme">
+                    <h3>Meme of the Day</h3>
+                    <img src="meme.jpg">
+                </div>
+
+                <hr>
+            </section>
+
+            <section>
+                <h2>Yesterday</h2>
+
+                <p><i>Aenean eu lacinia felis</i>, id gravida ex. Cras ut neque eu lectus fringilla ornare. Proin magna nibh, suscipit a odio ut, blandit placerat diam. Morbi et iaculis sapien, eu suscipit ex. Integer ac accumsan sapien, vel cursus elit. Donec tincidunt et massa vel semper. Nunc porttitor euismod pulvinar. Duis sit amet nulla sit amet risus faucibus facilisis quis sit amet ligula. Proin tristique nunc massa, a malesuada dui commodo sed. Etiam id facilisis ligula. <em>Phasellus suscipit velit eget cursus consequat. Quisque vel molestie odio, sed laoreet leo.</em></p>
+
+                <div class="goals2">
+                    <h3>Goals for the day</h3>
+                    <ol>
+                        <li>Goal 1</li>
+                        <li>Goal 2</li>
+                        <li>Goal 3</li>
+                    </ol>
+                </div>
+
+                <div class="video">
+                    <h3>Video of the Day</h3>
+                    <video controls width="250">
+                  
+                        <source src="vid.mp4"
+                                type="video/mp4">
+                    
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>                    
+                </div>
+                
+                <hr>
+            </section>
+
+            <section>
+                <h2>2 Days Ago</h2>
+                <p>Integer lacinia condimentum nulla ut euismod. Morbi efficitur urna vitae varius molestie. Sed posuere pulvinar efficitur. Nullam ut elit felis. Vivamus non diam accumsan, pharetra dui id, aliquet lorem. In posuere diam quis libero blandit, vitae rutrum nisl mollis. Morbi aliquet sapien non magna malesuada auctor. In tempor euismod nibh, tempor vulputate ipsum ultricies id. Etiam sed cursus tellus. Suspendisse elementum lacinia quam. Nam maximus libero sit amet erat vehicula, at malesuada justo ultrices. Proin ac elit vehicula mi malesuada pellentesque. Nulla blandit viverra nulla, ac lobortis nisi pretium venenatis. Donec sit amet placerat tellus. Vestibulum mattis orci eget justo molestie, ac cursus est ornare.</p>
+
+                <div class="goals3">
+                    <h3>Goals for the day</h3>
+                    <ol>
+                        <li>Goal 1</li>
+                        <li>Goal 2</li>
+                        <li>Goal 3</li>
+                    </ol>
+                </div>
+
+                <div class="audio">
+                    <h3>Song of the Day</h3>
+                    <h4>Lil Tjay - 20/20</h4>
+                    <audio
+                        controls
+                        src="2020.mp3">
+                            Your browser does not support the
+                            <code>audio</code> element.
+                    </audio>
+                </div>
+                <hr>
+            </section>
+            
+            <details>
+                <summary>About Me</summary>
+                I am a sophomore Computer Science student at UCSD.
+            </details>
+
+            <section>
+                <h2>Contact Me</h2>
+                <form action="" method="get">
+                    <fieldset>
+                        <div>
+                            <label for="name">Enter your name: </label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div>
+                            <label for="email">Enter your email: </label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div>
+                            <label for="call">Are you willing to call</label>
+                            <input type="radio" id="yes" name="ans" value="yes">
+                            <label for="yes">Yes</label>
+                            <input type="radio" id="no" name="ans" value="no">
+                            <label for="no">No</label>
+                        </div>
+                        <div>
+                            <p>Choose your preferred contact methods:</p>
+                            <input type="checkbox" id="email" name="contact" checked>
+                            <label for="email">Email</label>
+                            <input type="checkbox" id="phone" name="contact" >
+                            <label for="phone">Phone</label>
+                            <input type="checkbox" id="fax" name="contact" >
+                            <label for="fax">Fax</label>
+                        </div>
+
+                        <div>
+                            <label for="free">Which day are you free</label>
+
+                            <input type="date" id="free" name="free"
+                                value="2021-04-12"
+                                min="2018-01-01" max="2023-12-31">
+                        </div>
+                        <textarea rows="4" cols="50" name="comment" form="usrform">Comments</textarea>
+
+                        <label for="loc">Choose your location from the list:</label>
+                        <input list="loc" name="locs" id="loc">
+                        <datalist id="browsers">
+                            <option value="Edge">
+                            <option value="Firefox">
+                            <option value="Chrome">
+                            <option value="Opera">
+                            <option value="Safari">
+                        </datalist>
+
+                        <input type="submit" value="Subscribe!">
+                        
+                    </fieldset>
+                </form>
+                
+            </section>
+        </main>
+    </body>
+</html>
