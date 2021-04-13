@@ -137,17 +137,31 @@
                         </div>
                         <textarea rows="4" cols="50" name="comment" form="usrform">Comments</textarea>
 
-                        <label for="loc">Choose your location from the list:</label>
-                        <input list="loc" name="locs" id="loc">
-                        <datalist id="browsers">
-                            <option value="Edge">
-                            <option value="Firefox">
-                            <option value="Chrome">
-                            <option value="Opera">
-                            <option value="Safari">
-                        </datalist>
+                        <div>
+                            <label for="loc">Choose your location from the list:</label>
+                            <input list="locs" name="loc" id="loc">
+                            <datalist id="locs">
+                                <option value="Asia">
+                                <option value="North America">
+                                <option value="South America">
+                                <option value="Africa">
+                                <option value="Europe">
+                                <option value="Australia">
+                            </datalist>
+                        </div>
+                        
+                        <label for="colors">Choose a color:</label>
+                        <select name="colors" id="colors">
+                            <option value="red">Red</option>
+                            <option value="green">Green</option>
+                            <option value="blue">Blue</option>
+                            <option value="yellow">Yellow</option>
+                        </select>
 
-                        <input type="submit" value="Subscribe!">
+                        <div>
+                            <button type="button" onclick="alert('Submitted')">Submit!</button>
+                        </div>
+                        
                         
                     </fieldset>
                 </form>
