@@ -1,0 +1,88 @@
+/* This is a comment */
+
+body {
+    background-color: rgb(121, 174, 240);
+}
+
+h1.title {
+    background-color: blue;
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: hsl(0,0,0);
+    border-radius: 0.5em;
+    text-align: center;
+    text-decoration: underline;
+    display: block;
+    padding: 1% 0 1% 0;
+    font-family: 'Orelega One', cursive;
+    margin: 1px 1px 1px 1px;
+}
+
+p:hover {
+    color: white;
+    margin: auto;
+}
+
+section {
+    display: inline;
+    margin-top: 0.01in;
+    margin-bottom: 0.03pt;
+    margin-left: 1ch;
+    margin-right: 1px;
+
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+
+}
+
+.pic {
+    width: 200px;
+    height: 250px;
+    max-height: 250px;
+    max-width: 200px;
+    position: relative;
+}
+
+#vid {
+    position: inline;
+}
+
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow:column wrap;
+}
+
+#day1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: "day text goals meme";
+}
+
+#day1 #day {
+    grid-area: "day";
+}
+
+#day1 > #text {
+    grid-area: "text";
+}
+
+#text ~ .goals1 {
+    grid-area: "goals";
+}
+
+.goals1 + .meme {
+    grid-area: "meme";
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
